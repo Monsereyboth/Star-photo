@@ -1,0 +1,103 @@
+*{
+    font-family:cursive;
+    font-size:20px;
+    text-decoration: none;
+    
+}
+body{
+    background-image: url(b.jpg);
+    background-size: cover;
+}
+header{
+    
+    background-position: center;
+    background-size: cover;
+    
+}
+.list{
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+}
+.list ul{
+     float: right;
+     margin-top: 55px;
+}
+.list li{
+    display:inline-block;
+    margin-right: 20px;
+}
+.list li a{
+    color:black;
+    padding: 1px 20px;
+    border: 1px solid seashell;
+    background: white;
+
+
+}
+
+.pig{
+    position: absolute;
+    top:150px;
+    left:450px;
+    transform: translate(-50%-50%);
+    
+}
+.pig p{
+    color:brown;
+    font-size: 100px;
+}
+.start{
+    position: absolute;
+    top:200px;
+    left:100px;
+    transform: translate(-50%-50%);
+    border: 1px solid seashell;
+    padding: 1px 20px;
+    background-color: oldlace;
+
+
+}
+.apple{
+    border:  8px solid yellowgreen;
+    width: 100px;
+    height: 100px;
+}
+.what{
+    height:100vh;
+    width: 100%;
+    text-align: center;
+   }
+.what p{
+    color: black;
+    display:inline-block;
+    margin-top: 0;
+}
+.aaaa{
+    display: inline-block;
+    margin: 10px;
+    padding:3px;
+    background-color: blanchedalmond;
+    width: 320px;
+    height: 300px;
+    border: solid 2px wheat;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    
+}
+.aaaa > p{
+    margin-top: 263px;
+    background: goldenrod;
+    font-size: 28px;
+}
+.grid{
+    width: 1400px;
+    height: auto;
+    display: inline-block;
+    background-color:none;
+    margin-left: 250px;
+    position: absolute;
+}
+
+
