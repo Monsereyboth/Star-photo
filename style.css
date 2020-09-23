@@ -7,7 +7,7 @@
 
 header{
     
-   background-image: url(b.jpg);
+   background-image: url(si.jpg);
    height: 100vh;
    background-size:cover ;
    background-position: center;
@@ -27,6 +27,9 @@ ul li a{
     padding: 5px 20px;
     border:3px solid black;
     transition: 0.6s ease;
+    background-color: blanchedalmond;
+    border-radius: 200px;
+    margin-bottom: auto;
 }
 ul li a:hover{
     background-color: white;
@@ -35,6 +38,7 @@ ul li a:hover{
 .list{
     max-width: 1600px;
     margin:auto;
+    font-size: 30px;
 }
 .apple img{
     float:left;
@@ -47,33 +51,45 @@ ul li a:hover{
     background-image: url(toy.jpg.jpg);
     position: absolute;
     top:50px;
-    left:150px;
+    left:80px;
     transform: translate(-50%-50%);
+    margin-top:100px ;
+    color: green;
+    background:turquoise;
+   
+
 }
 .toy img{
-    float:left;
-    margin:10px;
+    float:right;
+    margin:50px;
     border-width: 4px;
     border-style: solid;
     border-radius: 100px;
-
+    
+    
 }
+
 .title{
     position: absolute;
     top: 50%;
-    left:26%;
+    left:30%;
     transform: translate(-50%-50%);
 }
 .title h1{
     color:black;
-    font-size: 50px;
-    margin-top:10px;
+    font-size: 40px;
+    margin-top:15px;
+    background-color: blanchedalmond;
+    border-radius: 30px;
+    margin-bottom: auto;
 }
 .button{
     position: absolute;
     top: 65%;
     left:44%;
     transform: translate(-50%-50%);
+    
+    
     
 }
 .btn{
@@ -83,6 +99,9 @@ ul li a:hover{
     text-decoration: none;
     transform: 0.6s ease;
     font-size: 30px;
+    background-color: turquoise;
+    border-radius: 200px;
+    margin-bottom: auto;
 
 }
 .btn:hover{
@@ -100,21 +119,51 @@ ul li a:hover{
         font-size: 40px;
         margin-top:10px;
 }
+.wraper{
+    background-color: yellow;
+    width: 800px;
+    margin-left:330px;
+    border: 6px solid black;
+    border-radius: 300px;
+    margin-bottom: auto;
+}
 
 
 .team{
-    display: flex;
+  width: 230px;
+  height:350px;
+  padding: 30px;
+  background-color: white;
+  float: left;
+  margin: 60px;
+  border-radius: 10px;
+  margin-bottom: auto;
+  
+  
+  
+}
+
+h2{
     text-align: center;
-    width: auto;
-    justify-content: center;
-    background: chocolate;
-    margin: 5px;
-} 
-.team.Bruno_Mars{
-    background: cyan;
+    font-size: 50px;
+
+
+}
+.team img{
+    float:left;
+    margin:10px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 100px;
+    margin-bottom: auto;
+}
+
+.gun img{
+    
+    background-color: white;
+    float: left;
     margin: 50px;
-    margin-bottom: 50px;
-    width: 300px;
-
-
+    border-radius: 10px;
+    margin-bottom: auto;
+    
 }
